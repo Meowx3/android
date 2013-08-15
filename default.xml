@@ -27,7 +27,7 @@
            sync-j="4" />
            
   <remote  name="meow"
-           fetch="git://guthub.com/Meowx3/" />
+           fetch="git://github.com/Meowx3/" />
 
   <default revision="refs/tags/android-4.3_r2.1"
            remote="aosp"
@@ -294,8 +294,6 @@
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" remote="cm" revision="cm-10.2" groups="qcom" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="cm" revision="cm-10.2" groups="qcom_wlan" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" revision="cm-10.2" groups="pdk" />
-  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="cm" revision="cm-10.2" />
-  <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" remote="cm" revision="cm-10.2" groups="exynos5" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" remote="cm" revision="cm-10.2" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-10.2" />
@@ -424,20 +422,14 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/audience" name="proprietary_vendor_audience" remote="tm" revision="cm-10.1" />
-  <project path="vendor/asus" name="proprietary_vendor_asus" remote="cr" revision="jb3" />
   <project path="vendor/bn" name="proprietary_vendor_bn" remote="tm" revision="cm-10.1" />
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="cr" revision="jb3" />
   <project path="vendor/carbon" name="android_vendor_carbon" remote="meow" revision="jb3" />
   <project path="vendor/elan" name="proprietary_vendor_elan" remote="tm" revision="cm-10.1" />
-  <project path="vendor/htc" name="proprietary_vendor_htc" remote="cr" revision="jb3" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="tm" revision="cm-10.2" />
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="cr" revision="jb3" />
-  <project path="vendor/lge" name="proprietary_vendor_lge" remote="cr" revision="jb3" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-10.2" />
-  <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="cr" revision="jb3" />
   <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="tm" revision="cm-10.2" />
-  <project path="vendor/oppo" name="proprietary_vendor_oppo" remote="tm" revision="cm-10.1" />
-  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="cm-10.2" />
   <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="cr" revision="jb3" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="gh" revision="jb-mr2" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="AOKP/vendor_tmobile_libs_com.tmobile.themes" remote="gh" revision="jb-mr2" />
