@@ -1,1 +1,3 @@
 An attempt to port Carbon JB3 to the Spyder and UMTS_Spyder
+
+Waiting till we have a successful build to start pulling back out extra entries in manifest.
