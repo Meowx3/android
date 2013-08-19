@@ -30,7 +30,7 @@
            sync-j="4" />
            
   <remote  name="meow"
-           fetch="git://github.com/Meowx3/" />
+           fetch="https://github.com/Meowx3/" />
 
   <default revision="refs/tags/android-4.3_r2.1"
            remote="aosp"
