@@ -46,7 +46,9 @@
   <project path="device/motorola/umts_spyder" name="android_device_motorola_umts_spyder" remote="meow" revision="cm-10.2" />
   <project path="device/motorola/omap4-common" name="android_device_motorola_omap4-common" remote="meow" revision="cm-10.2" />
   <project path="kernel/motorola/omap4-common" name="android_kernel_motorola_omap4-common" remote="sts" revision="cm-10.2-merge" />
+  <project path="kernel/motorola/omap4-kexec-common" name="CyanogenMod/android_kernel_motorola_omap4-kexec-common" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" groups="omap4" remote="cm" revision="cm-10.2" />
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-10.2" />
 
   <project path="android" name="android" remote="cr" revision="jb3" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -298,7 +300,7 @@
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="cr" revision="jb3" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="cm" revision="cm-10.2" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" />
+  <project path="packages/apps/Email" name="SlimRoms/packages_apps_Email" remote="gh" revision="jb4.3" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Focal" name="CyanogenMod/android_packages_apps_Focal" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" remote="cm" revision="cm-10.2" />
